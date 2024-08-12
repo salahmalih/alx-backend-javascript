@@ -5,7 +5,7 @@
  *   firstName: String,
  *   location: String
  * }[]} students - The list of students.
- * 
+ * @author Salah MAlih <https://github.com/salahmalih>
  * @returns {Number}
  */
 export default function getStudentIdsSum(students) {
