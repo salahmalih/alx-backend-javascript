@@ -3,8 +3,8 @@
  * @param {Number} length - The length of the buffer.
  * @param {Number} position - The position to modify.
  * @param {Number} value - The value to be stored in the position.
- * 
- * @returns {DataView}
+ * @author Salah Malih <https://github.com/salahmlaih>
+ *@returns {DataView}
  */
 export default function createInt8TypedArray(length, position, value) {
   if (position >= length) {
